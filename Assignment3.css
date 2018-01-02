@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+	font-family: 'Roboto', sans-serif!important;
+	padding: 0px;
+	margin: 0px;
+}
+.jumbotron{
+	background-color: #2760AD!important;
+	height: 600px;
+	margin: 10px;
+	color: white!important;
+}
+.big{
+	color: white!important;
+    font-size: 200px;
+}
+.fb-icon{
+	border-radius: 50px;
+	float: left;
+	margin-right: 50px;
+}
+@media (max-width: 789px){
+   .jumbotron {
+	height: 350px;
+	margin: 10px;	
+    }
+    .big{
+    	font-size: 50px;
+    }
+    .fb-icon{
+    	width: 60px;
+    	height: 60px;
+    }
+    #pd-lt{
+    	padding-left: 60px!important;
+    }
+    .intro{
+    	text-align: left;
+    }
+    #gly{
+    	margin-top: 0px;
+    }
+    #coverpic{
+    	width: 10px!important;
+    	height: 10px!important;
+    	margin: 5px;
+    }
+    .about-header{
+    	margin-left: 15px!important;
+    	width: 375px!important;
+    	font-size: 50px!important;
+    }
+    .about-menu{
+    	margin-left: 0px!important; 
+    	width: 100px!important;
+    	height: 220px!important;
+    }
+    .menu-item-1,.menu-item-2,.menu-item-3,.menu-item-4{
+    	font-size: 0.5em;
+    }
+    .about-menu h3{
+    	font-size: 1em!important;
+    }	
+    .about-content{
+    	margin-left: 60px!important;
+    	width: 270px!important;
+    	height: 220px!important;
+    }
+    .about-content h1,.about-content h2,.about-content h3,.about-content h4,.about-content h5{
+    	font-size: 0.7em!important;
+    }
+    .post-btn{
+    	font-size: 1em;
+    	margin-left: 80px!important;
+    	margin-top: 0px!important;
+    } 
+    .post{
+    	height: 300px!important;
+    	width: 350px!important;
+    	margin-left: 30px!important;
+    }
+    #profilepic{
+	margin-left: 40px!important;
+    }    
+}
+#gly{
+	padding-left:180px; 
+}
+.about-header{
+	margin-left: 30px;
+	margin-bottom: 0px; 
+	background-color: #E9EBEE;
+    width: 1100px;
+	height: 60px;
+	border:solid 1px #CED0D4;
+}
+.about-menu{
+	margin-left: 65px;
+	margin-bottom: 30px; 
+	height: 300px;
+	width: 170px;
+    border:solid 1px #CED0D4;	
+}
+.menu-item-1,.menu-item-2,.menu-item-3,.menu-item-4{
+	width: 150px;
+	padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.about-menu ul{
+	padding: 0px;
+	list-style: none;
+}
+.about-content{
+    margin-left: 105px;
+	width: 600px;
+	height: 300px;
+	border:solid 1px #CED0D4;
+}
+.post{
+    border:solid 1px #CED0D4;	
+	height: 550px;
+	width: 1000px;
+	margin-left: 80px;
+	margin-bottom: 50px;
+}
+#school,#college,#branch,#location,#username,#email,#birthday,#gender,#age{
+	color: #2760AD;
+}
+.menu-item-1:hover{
+	border-left: solid 2px #2760AD; 
+	font-weight: bold;
+    cursor: pointer;
+}
+.menu-item-2:hover{
+	border-left: solid 2px #2760AD; 
+	font-weight: bold;
+	cursor: pointer;
+}
+.menu-item-3:hover{
+	border-left: solid 2px #2760AD; 
+	font-weight: bold;
+	cursor: pointer;
+}
+#cover{
+	margin-left: 100px!important;
+}
+#profilepic{
+	margin-left: 400px;
+}
+#image{
+	height: 300px;
+	width: 600px;
+	border:solid 1px #CED0D4;
+}
+.post-btn{
+	margin-left: 500px;
+	margin-bottom: 50px!important;
+}
